@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  color: #222;
+  margin: 0;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #254b65;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+nav {
+  background-color: #dbe5ec;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a { color: #183e5b; }
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 15px;
+}
+
+section {
+  background-color: white;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+h2 {
+  color: #254b65;
+  border-bottom: 2px solid #a7bfce;
+  padding-bottom: 5px;
+}
+
+h3 { color: #254b65; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 15px auto;
+  max-width: 550px;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
+
+th { background-color: #dbe5ec; }
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #254b65;
+  color: white;
+}
